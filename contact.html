@@ -1,0 +1,225 @@
+<!-- contact.html -->
+<!-- Programmé par : Maxime Lacroix-Lemire -->
+<!-- Dernière Mise À  Jour :  2021/09/19 -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="media/icons/favicon.ico" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style/css/style.css">
+        <link rel="stylesheet" href="style/css/margin.css">
+        <link rel="stylesheet" href="style/css/police.css">
+        <link rel="stylesheet" href="style/css/background.css">
+        <link rel="stylesheet" href="style/css/couleurs.css">
+        <link rel="stylesheet" href="style/css/logo.css">
+        <link rel="stylesheet" href="style/css/img.css">
+        <link rel="stylesheet" href="style/css/form.css">
+        <title>Contact</title>
+    </head>
+    <body  class="bg__diagonale">
+        <!-- Navbar -->
+        <header>
+            <div>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 3672.1 567.8" enable-background="new 0 0 3672.1 567.8" xml:space="preserve" class="inverser">
+                <g>                    
+                    <linearGradient id="startwave1_4_" gradientUnits="userSpaceOnUse" x1="1836.0255" y1="567.7883" x2="1836.0255" y2="145.0611">
+                        <stop  offset="0" style="stop-color:#3b5998"/>
+                        <stop  offset="1" style="stop-color:#42acec"/>
+                    </linearGradient>
+                    <path id="startwave1_2_" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_4_)" d="M0,567.8h3672l0.1-178.6
+                        c0,0-495.2,44.3-973.9-142.6c-576.4-225-1026.3-9.4-1089.5,15c-153.7,59.4-386,245.9-1156.2,56.6C164.1,237.4,0,273.2,0,273.2
+                        V567.8z"/>
+                </g>
+            </svg>
+            </div>
+            <div class="container-fluid margin__bottom--8">
+                <div class="row">
+                    <div class="offset-2 col-9">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <a class="navbar-brand" href="index.html"><img src="media/image/logo.png" alt="Logo" class="img__100"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-braille fa-2x"></i>
+                            </button>                    
+                            <div class="collapse navbar-collapse pt-4" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">                                    
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link police__20lg police__17md text-black-50 mr-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Projet
+                                        </a>
+                                        <hr class="marginNeg__top--8px mr-3"> 
+                                        <div class="dropdown-menu navcolor" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item police__17lg police__13md navcolor" href="sitehtml.html">Site HTML</a>
+                                            <a class="dropdown-item police__17lg police__13md navcolor" href="sitephp.html">Site PHP</a>                                            
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link police__20lg police__17md text-black-50 mr-3" href="apropos.html">À propos</a>
+                                        <hr class="marginNeg__top--8px mr-3">
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link police__20lg police__17md text-black-50" href="contact.html">Contact</a>
+                                        <hr class="marginNeg__top--8px">
+                                    </li>                            
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Formulaire de base -->
+        <!-- <section>            
+            <form action="merci.html">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="inputNom">Entrez votre prénom :</label>
+                            <input type="text" id="inputNom" placeholder="John" pattern="[a-zA-Z][a-zA-Z\s]*" required>
+                        </div>
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="inputPrenom">Entrez votre nom de famille :</label>
+                            <input type="text" id="inputPrenom" placeholder="Doe" pattern="[a-zA-Z][a-zA-Z\s]*" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="email">Entrez votre adresse courriel :</label>
+                            <input type="text" id="email" placeholder="John@test.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        </div>
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="tel">Entrez votre téléphone</label>
+                            <input type="text" id="tel" placeholder="819-515-4544" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                    </div>
+                </div>               
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="sujet">Veuillez inscrire votre sujet</label>
+                            <input type="text" id="sujet" placeholder="Sujet" pattern="[a-zA-Z0-9][a-zA-Z0-9\s]*" required>
+                        </div>                        
+                        <div class="col-12 col-sm-6 form-group">
+                            <label for="budget">Inscrivez votre budget</label>
+                            <input type="number" id="budget" placeholder="Votre budget approximatif" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 form-group">
+                            <label for="langage">Langages</label>
+                            <select name="langage" id="langage" required>
+                                <option selected>Choisir un langage</option>
+                                <option>HTML/CSS</option>
+                                <option>REACT</option>
+                                <option>PHP</option>
+                            </select>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="description">Description</label>
+                        </div>               
+                        <div class="col-12">                
+                        <textarea name="description" id="description" cols="50" rows="10" placeholder="Veuillez inscrire une brève description de votre projet" required></textarea>
+                        </div>
+                    </div>
+                </div>                
+                
+                <div class="pt-4 text-center">
+                <button type="reset" class="btn btn-secondary">Réinitialiser</button>
+                <button type="submit" class="btn btn-primary">Soumettre le formulaire</button>
+                </div>
+            </form>
+        </section> -->
+
+        <!-- Formulaire avec Animation-->
+        <section>
+            <!-- multistep form -->
+            <form id="msform">
+                <!-- progressbar -->
+                <ul id="progressbar">
+                    <li class="active">Informations personnelles</li>
+                    <li>Moyen de contact</li>
+                    <li>Description du Projet</li>
+                </ul>
+                <!-- fieldsets -->
+                <fieldset>
+                    <h2 class="fs-title">Informations personnelles</h2>
+                    <h3 class="fs-subtitle">Vos informations sont confidentielle et ne seront jamais vendu</h3>
+                    <input type="text" name="prenom" placeholder="Votre Prénom" required />
+                    <input type="text" name="nom" placeholder="Votre nom de famille" required/>        
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Moyens de contacts</h2>
+                    <h3 class="fs-subtitle">Parlons de votre projet ensemble!</h3>
+                    <input type="text" name="email" placeholder="Votre adresse de courriel" required/>
+                    <input type="text" name="tel" placeholder="Votre numéro de téléphone" required/>
+                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Description du Projet</h2>
+                    <h3 class="fs-subtitle">Donnez moi des détails de votre projet</h3>
+                    <input type="text" name="sujet" placeholder="Sujet" required/>
+                    <input type="text" name="language" placeholder="HTML/CSS, REACT, PHP" required/>
+                    <textarea name="description" placeholder="Veuillez inscrire une brève description de votre projet" required></textarea>
+                    <input type="number" name="budget" placeholder="Veuillez inscrire une approximation de votre budget" required>
+                    <input type="submit" name="previous" class="previous action-button" value="Previous"/>
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" onclick="window.location.href = '/Portfolio_InterfaceWeb2/merci.html'"/>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <div class="container pt-5 pb-5">
+                <div class="row navbarbg">
+                    <div class="col-sm-12 col-lg-6">
+                        <h6 class="blanc police__19 text-center pb-4">
+                            Copyright © 2021 - Tous droits réservés.
+                        </h6>    
+                    </div>
+                    <div class="offset-lg-2 col-sm-12 col-lg-4 text-center">
+                        <i class="fab fa-facebook fa-3x mr-5"></i>
+                        <i class="fab fa-instagram fa-3x bgBlanc mr-5"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </div>    
+                </div>    
+            </div>
+            <div>
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 3672.1 567.8" enable-background="new 0 0 3672.1 567.8" xml:space="preserve">
+                    <g>
+                        <linearGradient id="startwave1_3_1" gradientUnits="userSpaceOnUse" x1="1835.995" y1="401.9875" x2="1835.995" y2="-4.414596e-08">
+                            <stop  offset="0" style="stop-color:#3b5998"/>
+                            <stop  offset="1" style="stop-color:#42acec"/>
+                        </linearGradient>
+                        <path id="startwave1_1_1" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_3_1)" d="M0,402h3671.9l0.1-169.8
+                            c0,0-470.9,42.2-926.1-135.6c-548.1-214-976-9-1036,14.3c-146.1,56.5-367.1,233.8-1099.5,53.8C336.1,87.8,0,140.7,0,140.7V402z"/>
+                        <linearGradient id="startwave1_4_1" gradientUnits="userSpaceOnUse" x1="1836.0255" y1="567.7883" x2="1836.0255" y2="145.0611">
+                            <stop  offset="0" style="stop-color:#3b5998"/>
+                            <stop  offset="1" style="stop-color:#42acec"/>
+                        </linearGradient>
+                        <path id="startwave1_2_1" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_4_1)" d="M0,567.8h3672l0.1-178.6
+                            c0,0-495.2,44.3-973.9-142.6c-576.4-225-1026.3-9.4-1089.5,15c-153.7,59.4-386,245.9-1156.2,56.6C164.1,237.4,0,273.2,0,273.2
+                            V567.8z"/>
+                    </g>
+                </svg>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src='js/jquery.easing.min.js'></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="js/form.js"></script>
+        <script src="https://kit.fontawesome.com/68cd163438.js" crossorigin="anonymous"></script>
+    </body>
+</html>

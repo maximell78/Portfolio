@@ -1,0 +1,230 @@
+<!-- index.html -->
+<!-- Programmé par : Maxime Lacroix-Lemire -->
+<!-- Dernière Mise À  Jour :  2021/09/19 -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Portfolio PWA">
+        <meta name="description" content="Le Portfolio de Maxime Lacroix-Lemire">
+        <meta name="theme-color" content="#2F3BA2" />
+        <link rel="apple-touch-icon" href="media/icons/icon-152x152.png">
+        <link rel="icon" type="image/png" href="media/icons/favicon.ico" />
+        <link rel="manifest" href="manifest.json">        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style/css/style.css">
+        <link rel="stylesheet" href="style/css/margin.css">
+        <link rel="stylesheet" href="style/css/police.css">
+        <link rel="stylesheet" href="style/css/background.css">
+        <link rel="stylesheet" href="style/css/couleurs.css">
+        <link rel="stylesheet" href="style/css/logo.css">
+        <link rel="stylesheet" href="style/css/anim.css">
+        <link rel="stylesheet" href="style/css/img.css">
+        <title>Portfolio de Maxime Lacroix-Lemire</title>
+    </head>
+    <body class="bg__diagonale">
+        <!-- Navbar -->
+        
+        <header>
+            <div>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 3672.1 567.8" enable-background="new 0 0 3672.1 567.8" xml:space="preserve" class="inverser">
+                    <g>                    
+                        <linearGradient id="startwave1_4_" gradientUnits="userSpaceOnUse" x1="1836.0255" y1="567.7883" x2="1836.0255" y2="145.0611">
+                            <stop  offset="0" style="stop-color:#3b5998"/>
+                            <stop  offset="1" style="stop-color:#42acec"/>
+                        </linearGradient>
+                        <path id="startwave1_2_" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_4_)" d="M0,567.8h3672l0.1-178.6
+                            c0,0-495.2,44.3-973.9-142.6c-576.4-225-1026.3-9.4-1089.5,15c-153.7,59.4-386,245.9-1156.2,56.6C164.1,237.4,0,273.2,0,273.2
+                            V567.8z"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="container-fluid mb-5 bg__simple-vague">
+                <div class="row">
+                    <div class="offset-2 col-9">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <a class="navbar-brand" href="index.html"><img src="media/image/logo.png" alt="Logo" class="img__100"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-braille fa-2x"></i>
+                            </button>                    
+                            <div class="collapse navbar-collapse pt-4" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">                                    
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link police__20lg police__17md text-black-50 mr-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Projet
+                                        </a>
+                                        <hr class="marginNeg__top--8px mr-3"> 
+                                        <div class="dropdown-menu navcolor" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item police__17lg police__13md navcolor" href="sitehtml.html">Site HTML</a>
+                                            <a class="dropdown-item police__17lg police__13md navcolor" href="sitephp.html">Site PHP</a>                                            
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link police__20lg police__17md text-black-50 mr-3" href="apropos.html">À propos</a>
+                                        <hr class="marginNeg__top--8px mr-3">
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link police__20lg police__17md text-black-50" href="contact.html">Contact</a>
+                                        <hr class="marginNeg__top--8px">
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="nav-link px-lg-4 px-2" id="butInstall" aria-label="Install" hidden>Installer la PWA</button>
+                                    </li>                            
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Bannière présentation -->
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="police__30--cara text-justify text-center"> Bonjour, je suis développeur front-end à mon compte sur la Rive-Sud de Montréal.</br> Bienvenue dans mon portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- Description -->
+        <section>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">                        
+                        <h3 class="police__20 police__25md police__28lg">Je conçois des sites internet avec minutie avec respect des maquettes proposées</h3>
+                        <ol class="ml16">
+                            <li>1 - Intégrateur HTML - CSS</li>
+                            <li>2 - Développeur PHP</li>
+                            <li>3 - Concepteur REACT</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img src="media/image/teletravail.jpg" alt="Télétravail" class="img img-fluid img__200 img__300sm img__400md img__500lg">
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center pt-4">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <img src="media/image/info.jpg" alt="Info" class="img img-fluid img__200 img__300sm img__400md img__500lg">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="police__20 police__25md police__28lg">Mes valeurs</h3>
+                                    <ol class="ml13">
+                                        <li>1 - Intégrité</li>
+                                        <li>2 - Transaparence</li>
+                                        <li>3 - Rigueur</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container pt-5 pb-5">
+                <div class="row navbarbg">
+                    <div class="col-sm-12 col-lg-6">
+                        <h6 class="blanc police__19 text-center pb-4">
+                            Copyright © 2021 - Tous droits réservés.
+                        </h6>    
+                    </div>
+                    <div class="offset-lg-2 col-sm-12 col-lg-4 text-center">
+                        <i class="fab fa-facebook fa-3x mr-5"></i>
+                        <i class="fab fa-instagram fa-3x bgBlanc mr-5"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </div>    
+                </div>    
+            </div>
+            <div>
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 3672.1 567.8" enable-background="new 0 0 3672.1 567.8" xml:space="preserve">
+                    <g>
+                        <linearGradient id="startwave1_3_1" gradientUnits="userSpaceOnUse" x1="1835.995" y1="401.9875" x2="1835.995" y2="-4.414596e-08">
+                            <stop  offset="0" style="stop-color:#3b5998"/>
+                            <stop  offset="1" style="stop-color:#42acec"/>
+                        </linearGradient>
+                        <path id="startwave1_1_1" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_3_1)" d="M0,402h3671.9l0.1-169.8
+                            c0,0-470.9,42.2-926.1-135.6c-548.1-214-976-9-1036,14.3c-146.1,56.5-367.1,233.8-1099.5,53.8C336.1,87.8,0,140.7,0,140.7V402z"/>
+                        <linearGradient id="startwave1_4_1" gradientUnits="userSpaceOnUse" x1="1836.0255" y1="567.7883" x2="1836.0255" y2="145.0611">
+                            <stop  offset="0" style="stop-color:#3b5998"/>
+                            <stop  offset="1" style="stop-color:#42acec"/>
+                        </linearGradient>
+                        <path id="startwave1_2_1" fill-rule="evenodd" clip-rule="evenodd" fill="url(#startwave1_4_1)" d="M0,567.8h3672l0.1-178.6
+                            c0,0-495.2,44.3-973.9-142.6c-576.4-225-1026.3-9.4-1089.5,15c-153.7,59.4-386,245.9-1156.2,56.6C164.1,237.4,0,273.2,0,273.2
+                            V567.8z"/>
+                    </g>
+                </svg>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="https://kit.fontawesome.com/68cd163438.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script>
+
+        var textWrapper = document.querySelector('.ml16');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        var textWrapper = document.querySelector('.ml13');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({loop: true})
+        .add({
+            targets: '.ml16 .letter',
+            translateY: [-100,0],
+            easing: "easeOutExpo",
+            duration: 1400,
+            delay: (el, i) => 30 * i
+        }).add({
+            targets: '.ml16',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
+
+        anime.timeline({loop: true})
+        .add({
+            targets: '.ml13 .letter',
+            translateY: [100,0],
+            translateZ: 0,
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 1400,
+            delay: (el, i) => 300 + 30 * i
+        }).add({
+            targets: '.ml13 .letter',
+            translateY: [0,-100],
+            opacity: [1,0],
+            easing: "easeInExpo",
+            duration: 1200,
+            delay: (el, i) => 100 + 30 * i
+        });
+        </script>
+
+        <!-- Register service worker. -->
+        <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then((reg) => {
+                        console.log('Service worker registered.', reg);
+                    });
+            });
+        }
+        </script>
+    </body>
+</html>

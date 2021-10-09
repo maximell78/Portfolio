@@ -1,0 +1,10 @@
+/* couleurs.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/09/18 */
+
+$couleurs: ("blanc": white, "mauve": purple, "noir": black)
+
+@each $couleur, $i in $couleurs
+    .couleur__
+        &#{$couleur}
+            color: $i

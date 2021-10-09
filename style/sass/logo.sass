@@ -1,0 +1,14 @@
+/* parallax.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/09/18 */
+
+$logo: ("nav": url(../../media/image/logo.png))
+
+@each $version, $i in $logo
+    .logo__
+        &#{$version}
+            background-image: $i
+            background-repeat: no-repeat
+            height: auto
+            width: 1100px
+            margin-top: 25px

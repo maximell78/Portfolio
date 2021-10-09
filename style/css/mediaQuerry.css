@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* mediaQuerry.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/09/18 */
+ * // Small tablets and large smartphones (landscape view) */
+.container {
+  padding: 0 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}

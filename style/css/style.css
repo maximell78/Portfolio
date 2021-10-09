@@ -1,0 +1,77 @@
+    /* style.css */
+    /* Programmé par : Maxime Lacroix-Lemire */
+    /* Dernière Mise À  Jour :  2021/09/18 */
+
+/* HOVER DE HR POUR LA NAVBAR */
+
+/* ul {
+list-style-type: none;
+font-size: 2em;
+color: #001f3f;
+margin: 0.5em auto;
+width: 180px;
+}
+ul li {
+
+position: relative;
+cursor: pointer;
+}
+ul li hr {
+border: 0;
+border-top: 3px solid white;
+width: 0;
+position: absolute;
+top: 60%;
+margin: 0;
+transition: width 0.5s ease-out;
+-webkit-transition: width 0.5s ease-out;
+}
+ul li:first-child:hover hr {
+width: 100%;
+}
+ul li:nth-child(2):hover hr {
+width: 100%;
+}
+ul li:nth-child(3):hover hr {
+width: 100%;
+}    
+
+ul li:last-child:hover hr {
+width: 100%;
+} */
+
+/* RÉSEAUX SOCIAUX */
+
+.fa-facebook{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: white;
+}
+
+.fa-linkedin{
+    color: #0072b1;
+    background-color: white;
+    border-radius: 100%;
+}
+.fa-braille {
+    color: orange;
+}
+
+.navcolor {    
+    background: linear-gradient(0deg, rgba(66,172,236,1) 0%, rgba(59,89,152,1) 100%);
+}
+
+.inverser {
+    transform: rotate(180deg);
+}
