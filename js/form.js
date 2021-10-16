@@ -5,41 +5,48 @@ var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
 
 $(".next").click(function(){
-    if(animating) return false;
-    animating = true;
-    
-    current_fs = $(this).parent();
-    next_fs = $(this).parent().next();
-    
-    //activate next step on progressbar using the index of next_fs
-    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-    
-    //show the next fieldset
-    next_fs.show(); 
-    //hide the current fieldset with style
-    current_fs.animate({opacity: 0}, {
-        step: function(now, mx) {
-            //as the opacity of current_fs reduces to 0 - stored in "now"
-            //1. scale current_fs down to 80%
-            scale = 1 - (1 - now) * 0.2;
-            //2. bring next_fs from the right(50%)
-            left = (now * 50)+"%";
-            //3. increase opacity of next_fs to 1 as it moves in
-            opacity = 1 - now;
-            current_fs.css({
-        'transform': 'scale('+scale+')',
-        'position': 'absolute'
-    });
-            next_fs.css({'left': left, 'opacity': opacity});
-        }, 
-        duration: 800, 
-        complete: function(){
-            current_fs.hide();
-            animating = false;
-        }, 
-        //this comes from the custom easing plugin
-        easing: 'easeInOutBack'
-    });
+    let x = document.forms["msform"]["prenom"].value && document.forms["msform"]["nom"].value && document.forms["msform"]["email"].value && document.forms["msform"]["tel"].value;
+    if (x == ""){
+        document.getElementById("error1").innerHTML = "Entrer votre prenom SVP";
+        document.getElementById("error2").innerHTML = "Entrer votre nom SVP";
+        document.getElementById("error3").innerHTML = "Entrer votre email SVP";
+        document.getElementById("error4").innerHTML = "Entrer votre numéro de téléphone SVP";
+        if(animating) return false;
+        animating = true;
+        
+        current_fs = $(this).parent();
+        next_fs = $(this).parent().next();
+        
+        //activate next step on progressbar using the index of next_fs
+        $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+        
+        //show the next fieldset
+        next_fs.show(); 
+        //hide the current fieldset with style
+        current_fs.animate({opacity: 0}, {
+            step: function(now, mx) {
+                //as the opacity of current_fs reduces to 0 - stored in "now"
+                //1. scale current_fs down to 80%
+                scale = 1 - (1 - now) * 0.2;
+                //2. bring next_fs from the right(50%)
+                left = (now * 50)+"%";
+                //3. increase opacity of next_fs to 1 as it moves in
+                opacity = 1 - now;
+                current_fs.css({
+            'transform': 'scale('+scale+')',
+            'position': 'absolute'
+        });
+                next_fs.css({'left': left, 'opacity': opacity});
+            }, 
+            duration: 800, 
+            complete: function(){
+                current_fs.hide();
+                animating = false;
+            }, 
+            //this comes from the custom easing plugin
+            easing: 'easeInOutBack'
+        });    
+    };
 });
 
 $(".previous").click(function(){
@@ -78,5 +85,13 @@ $(".previous").click(function(){
 });
 
 $(".submit").click(function(){
-    return false;
+    let x = (document.forms["msform"]["sujet"].value && document.forms["msform"]["langage"].value && document.forms["msform"]["description"].value && document.forms["msform"]["budget"].value);
+    if (x == ""){
+        document.getElementById("error5").innerHTML = "Entrer le sujet SVP";
+        document.getElementById("error6").innerHTML = "Entrer le type de langage SVP";
+        document.getElementById("error7").innerHTML = "Entrer la description de votre projet SVP";
+        document.getElementById("error8").innerHTML = "Entrer votre budget approximatif SVP";
+    } else {
+    document.location.href="merci.html"
+    }
 })
