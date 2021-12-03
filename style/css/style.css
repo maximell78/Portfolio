@@ -61,3 +61,17 @@ width: 100%;
 .inverser {
     transform: rotate(180deg);
 }
+
+.hr {
+    border: 2px solid rgb(0, 0, 0, 0.3);
+}
+
+.padNeg__top--1px {
+    padding-top: -1000px;
+}
+
+@media (min-width: 576px) {
+    .pb__sm--2 {
+        padding-bottom: 1.5em;
+    }
+}

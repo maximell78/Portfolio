@@ -3,7 +3,7 @@
 /* Programmé par : Maxime Lacroix-Lemire */
 /* Dernière Mise À  Jour :  2021/09/18 */
 /* GOOGLE FONT */
-@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@1,500&display=swap");
 /* POLICE */
 .police__1 {
   font-size: 1px;
@@ -12,9 +12,9 @@
   font-size: 1px;
   color: white;
 }
-.police__1--cara {
+.police__1--yrsa {
   font-size: 1px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__1sm {
@@ -66,9 +66,9 @@
   font-size: 2px;
   color: white;
 }
-.police__2--cara {
+.police__2--yrsa {
   font-size: 2px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__2sm {
@@ -120,9 +120,9 @@
   font-size: 3px;
   color: white;
 }
-.police__3--cara {
+.police__3--yrsa {
   font-size: 3px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__3sm {
@@ -174,9 +174,9 @@
   font-size: 4px;
   color: white;
 }
-.police__4--cara {
+.police__4--yrsa {
   font-size: 4px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__4sm {
@@ -228,9 +228,9 @@
   font-size: 5px;
   color: white;
 }
-.police__5--cara {
+.police__5--yrsa {
   font-size: 5px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__5sm {
@@ -282,9 +282,9 @@
   font-size: 6px;
   color: white;
 }
-.police__6--cara {
+.police__6--yrsa {
   font-size: 6px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__6sm {
@@ -336,9 +336,9 @@
   font-size: 7px;
   color: white;
 }
-.police__7--cara {
+.police__7--yrsa {
   font-size: 7px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__7sm {
@@ -390,9 +390,9 @@
   font-size: 8px;
   color: white;
 }
-.police__8--cara {
+.police__8--yrsa {
   font-size: 8px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__8sm {
@@ -444,9 +444,9 @@
   font-size: 9px;
   color: white;
 }
-.police__9--cara {
+.police__9--yrsa {
   font-size: 9px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__9sm {
@@ -498,9 +498,9 @@
   font-size: 10px;
   color: white;
 }
-.police__10--cara {
+.police__10--yrsa {
   font-size: 10px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__10sm {
@@ -552,9 +552,9 @@
   font-size: 11px;
   color: white;
 }
-.police__11--cara {
+.police__11--yrsa {
   font-size: 11px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__11sm {
@@ -606,9 +606,9 @@
   font-size: 12px;
   color: white;
 }
-.police__12--cara {
+.police__12--yrsa {
   font-size: 12px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__12sm {
@@ -660,9 +660,9 @@
   font-size: 13px;
   color: white;
 }
-.police__13--cara {
+.police__13--yrsa {
   font-size: 13px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__13sm {
@@ -714,9 +714,9 @@
   font-size: 14px;
   color: white;
 }
-.police__14--cara {
+.police__14--yrsa {
   font-size: 14px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__14sm {
@@ -768,9 +768,9 @@
   font-size: 15px;
   color: white;
 }
-.police__15--cara {
+.police__15--yrsa {
   font-size: 15px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__15sm {
@@ -822,9 +822,9 @@
   font-size: 16px;
   color: white;
 }
-.police__16--cara {
+.police__16--yrsa {
   font-size: 16px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__16sm {
@@ -876,9 +876,9 @@
   font-size: 17px;
   color: white;
 }
-.police__17--cara {
+.police__17--yrsa {
   font-size: 17px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__17sm {
@@ -930,9 +930,9 @@
   font-size: 18px;
   color: white;
 }
-.police__18--cara {
+.police__18--yrsa {
   font-size: 18px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__18sm {
@@ -984,9 +984,9 @@
   font-size: 19px;
   color: white;
 }
-.police__19--cara {
+.police__19--yrsa {
   font-size: 19px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__19sm {
@@ -1038,9 +1038,9 @@
   font-size: 20px;
   color: white;
 }
-.police__20--cara {
+.police__20--yrsa {
   font-size: 20px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__20sm {
@@ -1092,9 +1092,9 @@
   font-size: 21px;
   color: white;
 }
-.police__21--cara {
+.police__21--yrsa {
   font-size: 21px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__21sm {
@@ -1146,9 +1146,9 @@
   font-size: 22px;
   color: white;
 }
-.police__22--cara {
+.police__22--yrsa {
   font-size: 22px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__22sm {
@@ -1200,9 +1200,9 @@
   font-size: 23px;
   color: white;
 }
-.police__23--cara {
+.police__23--yrsa {
   font-size: 23px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__23sm {
@@ -1254,9 +1254,9 @@
   font-size: 24px;
   color: white;
 }
-.police__24--cara {
+.police__24--yrsa {
   font-size: 24px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__24sm {
@@ -1308,9 +1308,9 @@
   font-size: 25px;
   color: white;
 }
-.police__25--cara {
+.police__25--yrsa {
   font-size: 25px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__25sm {
@@ -1362,9 +1362,9 @@
   font-size: 26px;
   color: white;
 }
-.police__26--cara {
+.police__26--yrsa {
   font-size: 26px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__26sm {
@@ -1416,9 +1416,9 @@
   font-size: 27px;
   color: white;
 }
-.police__27--cara {
+.police__27--yrsa {
   font-size: 27px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__27sm {
@@ -1470,9 +1470,9 @@
   font-size: 28px;
   color: white;
 }
-.police__28--cara {
+.police__28--yrsa {
   font-size: 28px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__28sm {
@@ -1524,9 +1524,9 @@
   font-size: 29px;
   color: white;
 }
-.police__29--cara {
+.police__29--yrsa {
   font-size: 29px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__29sm {
@@ -1578,9 +1578,9 @@
   font-size: 30px;
   color: white;
 }
-.police__30--cara {
+.police__30--yrsa {
   font-size: 30px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__30sm {
@@ -1632,9 +1632,9 @@
   font-size: 31px;
   color: white;
 }
-.police__31--cara {
+.police__31--yrsa {
   font-size: 31px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__31sm {
@@ -1686,9 +1686,9 @@
   font-size: 32px;
   color: white;
 }
-.police__32--cara {
+.police__32--yrsa {
   font-size: 32px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__32sm {
@@ -1740,9 +1740,9 @@
   font-size: 33px;
   color: white;
 }
-.police__33--cara {
+.police__33--yrsa {
   font-size: 33px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__33sm {
@@ -1794,9 +1794,9 @@
   font-size: 34px;
   color: white;
 }
-.police__34--cara {
+.police__34--yrsa {
   font-size: 34px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__34sm {
@@ -1848,9 +1848,9 @@
   font-size: 35px;
   color: white;
 }
-.police__35--cara {
+.police__35--yrsa {
   font-size: 35px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__35sm {
@@ -1902,9 +1902,9 @@
   font-size: 36px;
   color: white;
 }
-.police__36--cara {
+.police__36--yrsa {
   font-size: 36px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__36sm {
@@ -1956,9 +1956,9 @@
   font-size: 37px;
   color: white;
 }
-.police__37--cara {
+.police__37--yrsa {
   font-size: 37px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__37sm {
@@ -2010,9 +2010,9 @@
   font-size: 38px;
   color: white;
 }
-.police__38--cara {
+.police__38--yrsa {
   font-size: 38px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__38sm {
@@ -2064,9 +2064,9 @@
   font-size: 39px;
   color: white;
 }
-.police__39--cara {
+.police__39--yrsa {
   font-size: 39px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__39sm {
@@ -2118,9 +2118,9 @@
   font-size: 40px;
   color: white;
 }
-.police__40--cara {
+.police__40--yrsa {
   font-size: 40px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__40sm {
@@ -2172,9 +2172,9 @@
   font-size: 41px;
   color: white;
 }
-.police__41--cara {
+.police__41--yrsa {
   font-size: 41px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__41sm {
@@ -2226,9 +2226,9 @@
   font-size: 42px;
   color: white;
 }
-.police__42--cara {
+.police__42--yrsa {
   font-size: 42px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__42sm {
@@ -2280,9 +2280,9 @@
   font-size: 43px;
   color: white;
 }
-.police__43--cara {
+.police__43--yrsa {
   font-size: 43px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__43sm {
@@ -2334,9 +2334,9 @@
   font-size: 44px;
   color: white;
 }
-.police__44--cara {
+.police__44--yrsa {
   font-size: 44px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__44sm {
@@ -2388,9 +2388,9 @@
   font-size: 45px;
   color: white;
 }
-.police__45--cara {
+.police__45--yrsa {
   font-size: 45px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__45sm {
@@ -2442,9 +2442,9 @@
   font-size: 46px;
   color: white;
 }
-.police__46--cara {
+.police__46--yrsa {
   font-size: 46px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__46sm {
@@ -2496,9 +2496,9 @@
   font-size: 47px;
   color: white;
 }
-.police__47--cara {
+.police__47--yrsa {
   font-size: 47px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__47sm {
@@ -2550,9 +2550,9 @@
   font-size: 48px;
   color: white;
 }
-.police__48--cara {
+.police__48--yrsa {
   font-size: 48px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__48sm {
@@ -2604,9 +2604,9 @@
   font-size: 49px;
   color: white;
 }
-.police__49--cara {
+.police__49--yrsa {
   font-size: 49px;
-  font-family: "Carattere", cursive;
+  font-family: "Yrsa", cursive;
 }
 @media (min-width: 576px) {
   .police__49sm {
